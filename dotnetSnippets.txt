@@ -1,0 +1,1 @@
+dotnet aspnet-codegenerator controller -name AlbumController -m Album -dc ApplicationDbContext -outDir Controllers -f -udl
