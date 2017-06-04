@@ -1,1 +1,3 @@
 dotnet aspnet-codegenerator controller -name AlbumController -m Album -dc ApplicationDbContext -outDir Controllers -f -udl
+publish = dotnet publish -o ~/Scrivania/Projects/Publish/MetaTesina/publish data
+Set ENV = export ASPNETCORE_ENVIRONMENT=Development 
